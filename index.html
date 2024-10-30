@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>searchUp a teacher</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        header, nav, footer {
+            background-color: orange;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        .map {
+            height: 400px;
+            width: 100%;
+            background: url('path/to/your/map-image.jpg') center/cover no-repeat;
+        }
+        .teacher, .review {
+            padding: 20px;
+            margin: 10px 0;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .teacher.math { background-color: #71c7ff; }
+        .teacher.physics { background-color: #a0e57e; }
+        .teacher.french { background-color: #ffcd71; }
+        .teacher.history { background-color: #ff9071; }
+        .teacher.science { background-color: #c971ff; }
+        .name {
+            font-weight: bold;
+            font-style: italic;
+            color: #333;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>searchUp a teacher</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#map">Map</a>
+        <a href="#reviews">Reviews</a>
+    </nav>
+    <div class="container" id="home">
+        <h2>Home</h2>
+        <div>
+            <h1>About 'searchUp a Teacher'</h1>
+            <p>Welcome to 'searchUp a Teacher,' a non-profit organization dedicated to connecting teachers with students. Our mission is to empower learners by providing access to a diverse network of passionate educators committed to fostering academic growth and a love for learning.</p>
+            <p>At 'searchUp a Teacher,' we believe that education is the key to unlocking endless possibilities and shaping a brighter future. Through our platform, students can connect with skilled teachers from various disciplines, enabling them to explore new subjects, enhance their skills, and reach their full potential.</p>
+            <p>Our organization is driven by the belief that every student deserves quality education and personalized support to succeed. Whether you're seeking academic guidance, specialized training, or looking to expand your knowledge, 'searchUp a Teacher' is here to help you on your educational journey.</p>
+            <p>Join us in creating a vibrant community where teachers inspire and students thrive. Together, let's make learning an enriching and fulfilling experience for all.</p>
+        </div>
+       
+    </div>
+    <div class="container" id="map">
+        <h2>Map of Khouribga</h2>
+        <iframe width="100%" height="400" frameborder="0" style="border:0"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3322.650351852363!2d-6.895821684770168!3d32.886795030165176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdaa365c2b9f5d5d%3A0x1f0e2a3b8b9f4ec8!2sKhouribga!5e0!3m2!1sen!2sma!4v1617227949314!5m2!1sen!2sma"></iframe>
+        <p>List of Teachers:</p>
+        <div class="teacher physics">Mahsoun (Physics)</div>
+        <div class="teacher math">Taibi (Math)</div>
+        <div class="teacher math">Khachoni (Math)</div>
+        <div class="teacher math">Khaldoni (Math)</div>
+        <div class="teacher physics">Tanjawi (Physics)</div>
+        <div class="teacher french">Khalouk (French)</div>
+        <div class="teacher history">Chekar (History)</div>
+        <div class="teacher science">Nasiri (Science)</div>
+        <div class="teacher math">Taridi (Math)</div>
+        <div class="teacher physics">Karama (Physics)</div>
+    </div>
+    <div class="container" id="reviews">
+        <h2>Reviews</h2>
+        <div class="review">
+            <p>"Hello! I'm Ahmed and I was very pleased with my experience on this platform. Great service and excellent teachers. Thank you!"</p>
+            <p class="name">Ahmed Jamal</p>
+        </div>
+        <div class="review">
+            <p>"Great experience and excellent education. I highly recommend this service to all students seeking quality learning."</p>
+            <p class="name">Laila Ali</p>
+        </div>
+        <div class="review">
+            <p>"My teacher was professional and dedicated to imparting knowledge. Thank you for the great efforts."</p>
+            <p class="name">Abdullah Al-Ghamdi</p>
+        </div>
+        <input type="text" placeholder="Ask for individual help">
+    </div>
+    <footer>
+        <p>Contact: jin22102007@gmail.com | Social Media: Instagram, Telegram, Twitter</p>
+    </footer>
+</body>
+</html>
